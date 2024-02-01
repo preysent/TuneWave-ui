@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins&family=Rubik&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  /* Gradient of Purple */
+  --color-primary-darkest: #4b0082;
+  --color-primary: #663399;
+  --color-primary-lightest: #8a2be2;
+
+  /* Accent Colors */
+  --color-coral: #ff6f61;
+
+  /* Optional Neutral Gray */
+  --color-gray: #808080;
+
+  /* Your Existing Colors */
+  --color-gold: #ffd700;
+}
+.font-fair {
+  font-family: "Playfair Display", serif;
+}
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+*{
+  font-family: "Poppins", sans-serif;
+}
